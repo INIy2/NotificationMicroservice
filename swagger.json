@@ -1,0 +1,127 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Notification API",
+    "version": "1.0.0",
+    "description": "API for sending notifications via email, SMS, and push"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {
+    "/email": {
+      "post": {
+        "summary": "Send an email",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "recipient": {
+                    "type": "string",
+                    "example": "user@example.com"
+                  },
+                  "message": {
+                    "type": "string",
+                    "example": "Hello, Email!"
+                  },
+                  "attachments": {
+                    "type": "array",
+                    "items": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "required": ["recipient", "message"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Email sent successfully"
+          },
+          "500": {
+            "description": "Failed to send email"
+          }
+        }
+      }
+    },
+    "/push": {
+      "post": {
+        "summary": "Send a push notification",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "recipient": {
+                    "type": "string",
+                    "example": "firebase_token"
+                  },
+                  "message": {
+                    "type": "string",
+                    "example": "Hello, Push!"
+                  },
+                  "media": {
+                    "type": "string",
+                    "example": "https://example.com/image.png"
+                  }
+                },
+                "required": ["recipient", "message"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Push notification sent successfully"
+          },
+          "500": {
+            "description": "Failed to send push notification"
+          }
+        }
+      }
+    },
+    "/sms": {
+      "post": {
+        "summary": "Send an SMS",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "recipient": {
+                    "type": "string",
+                    "example": "+1234567890"
+                  },
+                  "message": {
+                    "type": "string",
+                    "example": "Hello, SMS!"
+                  }
+                },
+                "required": ["recipient", "message"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "SMS sent successfully"
+          },
+          "500": {
+            "description": "Failed to send SMS"
+          }
+        }
+      }
+    }
+  }
+}

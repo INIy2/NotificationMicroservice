@@ -1,0 +1,58 @@
+{"level":"info","message":"Firebase app initialized"}
+{"level":"info","message":"Database initialized successfully."}
+{"level":"info","message":"RabbitMQ consumer is running and listening for push notifications..."}
+{"level":"info","message":"Push Service is running"}
+{"level":"info","message":"Received push notification: {\"type\":\"push\",\"recipient\":\"firebase_token\",\"message\":\"Hello, Push!\"}"}
+{"level":"error","message":"Failed to send push notification: Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"invalid_grant: Invalid JWT Signature.\". There are two likely causes: (1) your server time is not properly synced or (2) your certificate key file has been revoked. To solve (1), re-sync the time on your server. To solve (2), make sure the key ID for your key file is still present at https://console.firebase.google.com/iam-admin/serviceaccounts/project. If not, generate a new key file at https://console.firebase.google.com/project/_/settings/serviceaccounts/adminsdk."}
+{"level":"error","message":"Error processing push notification: Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"invalid_grant: Invalid JWT Signature.\". There are two likely causes: (1) your server time is not properly synced or (2) your certificate key file has been revoked. To solve (1), re-sync the time on your server. To solve (2), make sure the key ID for your key file is still present at https://console.firebase.google.com/iam-admin/serviceaccounts/project. If not, generate a new key file at https://console.firebase.google.com/project/_/settings/serviceaccounts/adminsdk."}
+{"level":"info","message":"Firebase app initialized"}
+{"level":"info","message":"Database initialized successfully."}
+{"level":"info","message":"RabbitMQ consumer is running and listening for push notifications..."}
+{"level":"info","message":"Push Service is running"}
+{"level":"info","message":"Received push notification: {\"type\":\"push\",\"recipient\":\"firebase_token\",\"message\":\"Hello, Push!\"}"}
+{"level":"error","message":"Failed to send push notification: Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"invalid_grant: Invalid JWT Signature.\". There are two likely causes: (1) your server time is not properly synced or (2) your certificate key file has been revoked. To solve (1), re-sync the time on your server. To solve (2), make sure the key ID for your key file is still present at https://console.firebase.google.com/iam-admin/serviceaccounts/project. If not, generate a new key file at https://console.firebase.google.com/project/_/settings/serviceaccounts/adminsdk."}
+{"level":"error","message":"Error processing push notification: Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"invalid_grant: Invalid JWT Signature.\". There are two likely causes: (1) your server time is not properly synced or (2) your certificate key file has been revoked. To solve (1), re-sync the time on your server. To solve (2), make sure the key ID for your key file is still present at https://console.firebase.google.com/iam-admin/serviceaccounts/project. If not, generate a new key file at https://console.firebase.google.com/project/_/settings/serviceaccounts/adminsdk."}
+{"level":"info","message":"Firebase app initialized"}
+{"level":"info","message":"Database initialized successfully."}
+{"level":"info","message":"RabbitMQ consumer is running and listening for push notifications..."}
+{"level":"info","message":"Push Service is running"}
+{"level":"error","message":"Failed to send push notification: Credential implementation provided to initializeApp() via the \"credential\" property failed to fetch a valid Google OAuth2 access token with the following error: \"invalid_grant: Invalid JWT Signature.\". There are two likely causes: (1) your server time is not properly synced or (2) your certificate key file has been revoked. To solve (1), re-sync the time on your server. To solve (2), make sure the key ID for your key file is still present at https://console.firebase.google.com/iam-admin/serviceaccounts/project. If not, generate a new key file at https://console.firebase.google.com/project/_/settings/serviceaccounts/adminsdk."}
+{"level":"info","message":"Firebase app initialized"}
+{"level":"info","message":"Database initialized successfully."}
+{"level":"info","message":"RabbitMQ consumer is running and listening for push notifications..."}
+{"level":"info","message":"Push Service is running"}
+{"level":"info","message":"Firebase app initialized"}
+{"level":"info","message":"RabbitMQ consumer is running and listening for push notifications..."}
+{"level":"info","message":"Push Service is running"}
+{"level":"info","message":"Firebase app initialized"}
+{"level":"info","message":"RabbitMQ consumer is running and listening for push notifications..."}
+{"level":"info","message":"Push Service is running"}
+{"level":"info","message":"Firebase app initialized"}
+{"level":"info","message":"RabbitMQ consumer is running and listening for push notifications..."}
+{"level":"info","message":"Push Service is running"}
+{"level":"info","message":"Firebase app initialized"}
+{"level":"info","message":"RabbitMQ consumer is running and listening for push notifications..."}
+{"level":"info","message":"Push Service is running"}
+{"level":"info","message":"Firebase app initialized"}
+{"level":"info","message":"RabbitMQ consumer is running and listening for push notifications..."}
+{"level":"info","message":"Push Service is running"}
+{"level":"info","message":"Firebase app initialized"}
+{"level":"info","message":"RabbitMQ consumer is running and listening for push notifications..."}
+{"level":"info","message":"Push Service is running"}
+{"level":"info","message":"Firebase app initialized"}
+{"level":"info","message":"RabbitMQ consumer is running and listening for push notifications..."}
+{"level":"info","message":"Push Service is running"}
+{"level":"info","message":"Firebase app initialized"}
+{"level":"info","message":"RabbitMQ consumer is running and listening for push notifications..."}
+{"level":"info","message":"Push Service is running"}
+{"level":"info","message":"Firebase app initialized"}
+{"level":"info","message":"RabbitMQ consumer is running and listening for push notifications..."}
+{"level":"info","message":"Push Service is running"}
+{"level":"info","message":"Firebase app initialized"}
+{"level":"info","message":"RabbitMQ consumer is running and listening for push notifications..."}
+{"level":"info","message":"Push Service is running"}
+{"level":"info","message":"Firebase app initialized"}
+{"level":"info","message":"RabbitMQ consumer is running and listening for push notifications..."}
+{"level":"info","message":"Push Service is running"}
+{"level":"info","message":"Firebase app initialized"}
+{"level":"info","message":"Firebase app initialized"}
